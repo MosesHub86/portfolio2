@@ -1,0 +1,387 @@
+/* default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color:lightseagreen;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+/* Header styles */
+header {
+    background-color:darkcyan;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+/* Skill Section Styles */
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.technical-skills,
+.additional-skills {
+    flex-basis: 50%; 
+}
+
+.technical-skills ul,
+.additional-skills ul {
+    padding-left: 20px;
+}
+
+.skills-list h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Project Card Styles */
+.project-card {
+    display: flex;
+    margin-bottom: 30px;
+    height: 250px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,  0.3);
+}
+
+.project-thumbnail {
+    flex: 0 0 300px;
+}
+
+.project-thumbnail img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,  0.3);
+}
+
+.project-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.project-details h3 {
+    margin-top: 0;
+}
+
+.project-details p {
+    margin-bottom: 10px;
+}
+
+.project-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,  0.3);
+}
+
+.project-links a:hover {
+    background-color: darkcyan;
+}
+
+/* CREDENTIALS SECTION CONTENT */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.button-wrapper {
+    margin-right: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,  0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1000ms;
+}
+
+.section-button:hover {
+    background-color: white;
+    transform: translateY(-1.75rem);
+    transition: transform 250ms;
+}
+
+.section-button img {
+    width: 80%;
+    max-height: 80%;
+    margin-bottom: 100px; /* Adjust margin to decrease white space */
+}
+
+.section-button p{
+    color: lightseagreen;
+}
+
+/* CONTACT CONTENT*/
+.contact-info{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: white;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color:darkcyan ;
+    color: white;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid darkcyan;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid darkcyan ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: darkcyan ;
+}
+
+form button{
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,  0.3);
+}
+
+form button:hover {
+    background-color: darkcyan;
+}
+
+.contact-left h3{
+    color: darkcyan;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* For tablets and smaller */
+@media (max-width: 768px) {
+    /* Add responsive styles for tablets here */
+    .container {
+        width: 90%; /* Adjust container width for tablets */
+    }
+
+    .header-content {
+        flex-direction: column; /* Adjust header layout for tablets */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-right: 10px; /* Adjust margin for navigation items on tablets */
+    }
+
+    .project-card {
+        flex-direction: column; /* Adjust project card layout for tablets */
+    }
+
+    .project-thumbnail {
+        flex: 0 0 auto; /* Reset flex basis for project thumbnail on tablets */
+        margin-bottom: 20px; /* Adjust margin for project thumbnail on tablets */
+    }
+
+    .project-thumbnail img {
+        width: 100%; /* Make project thumbnail images responsive on tablets */
+        height: auto;
+    }
+
+    .project-details {
+        padding: 10px; /* Adjust padding for project details on tablets */
+    }
+
+    .project-links a {
+        margin-right: 5px; /* Adjust margin for project links on tablets */
+        padding: 3px 8px; /* Adjust padding for project links on tablets */
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%; /* Adjust contact content layout for tablets */
+    }
+}
+
+/* For smartphones and smaller */
+@media (max-width: 576px) {
+    /* Add responsive styles for smartphones here */
+    .container {
+        width: 95%; /* Adjust container width for smartphones */
+    }
+
+    .header-content {
+        padding: 10px 0; /* Adjust padding for header content on smartphones */
+    }
+
+    nav ul li {
+        display: block; /* Adjust navigation layout for smartphones */
+        margin-right: 0;
+        margin-bottom: 10px; /* Adjust margin for navigation items on smartphones */
+    }
+
+    .skills-list {
+        flex-direction: column; /* Adjust skills list layout for smartphones */
+    }
+
+    .skills-list h3 {
+        margin-bottom: 5px; /* Adjust margin for skills list headings on smartphones */
+    }
+
+    .project-card {
+        height: auto; /* Adjust project card height for smartphones */
+    }
+
+    .project-thumbnail {
+        flex: 0 0 100%; /* Adjust project thumbnail layout for smartphones */
+        margin-bottom: 10px; /* Adjust margin for project thumbnail on smartphones */
+    }
+
+    .project-thumbnail img {
+        width: 100%; /* Make project thumbnail images responsive on smartphones */
+        height: auto;
+    }
+
+    .project-details {
+        padding: 10px; /* Adjust padding for project details on smartphones */
+    }
+
+    .project-links a {
+        margin-right: 5px; /* Adjust margin for project links on smartphones */
+        padding: 3px 8px; /* Adjust padding for project links on smartphones */
+    }
+
+    .contact-left,
+    .contact-right {
+        padding: 20px; /* Adjust padding for contact content on smartphones */
+    }
+
+    input,
+    textarea,
+    form button {
+        width: 100%; /* Make form elements full width on smartphones */
+    }
+}

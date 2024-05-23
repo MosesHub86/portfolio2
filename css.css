@@ -258,7 +258,7 @@ form button:hover {
     margin-bottom: 30px;
 }
 
-.contact-right h3 {
+contact-right h3 {
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -285,59 +285,58 @@ footer p {
 
 /* For tablets and smaller */
 @media (max-width: 768px) {
-    /* Add responsive styles for tablets here */
     .container {
-        width: 90%; /* Adjust container width for tablets */
+        width: 90%;
     }
 
     .header-content {
-        flex-direction: column; /* Adjust header layout for tablets */
+        flex-direction: column;
         align-items: center;
     }
 
     nav ul li {
-        margin-right: 10px; /* Adjust margin for navigation items on tablets */
+        margin-right: 10px;
     }
 
     .project-card {
-        flex-direction: column; /* Adjust project card layout for tablets */
+        flex-direction: column;
     }
 
     .project-thumbnail {
-        flex: 0 0 auto; /* Reset flex basis for project thumbnail on tablets */
-        margin-bottom: 20px; /* Adjust margin for project thumbnail on tablets */
+        flex: 0 0 auto;
+        margin-bottom: 20px;
     }
 
     .project-thumbnail img {
-        width: 100%; /* Make project thumbnail images responsive on tablets */
+        width: 100%;
         height: auto;
     }
 
     .project-details {
-        padding: 10px; /* Adjust padding for project details on tablets */
+        padding: 10px;
     }
 
     .project-links a {
-        margin-right: 5px; /* Adjust margin for project links on tablets */
-        padding: 3px 8px; /* Adjust padding for project links on tablets */
+        margin-right: 5px;
+        padding: 3px 8px;
     }
 
     .contact-left,
     .contact-right {
-        flex-basis: 100%; /* Adjust contact content layout for tablets */
+        flex-basis: 100%;
     }
 }
 
 /* For smartphones and smaller (up to 576px) */
 @media (max-width: 576px) {
     .container {
-        width: 95%; /* Adjust container width for smartphones */
+        width: 95%;
     }
 
     .header-content {
-        flex-direction: column; /* Stack header content vertically */
+        flex-direction: column;
         align-items: center;
-        padding: 10px 0; /* Adjust padding for header content on smartphones */
+        padding: 10px 0;
     }
 
     nav ul {
@@ -345,77 +344,77 @@ footer p {
     }
 
     nav ul li {
-        display: block; /* Stack nav items vertically */
+        display: block;
         margin-right: 0;
-        margin-bottom: 10px; /* Space out nav items */
+        margin-bottom: 10px;
     }
 
     .skills-list {
-        flex-direction: column; /* Stack skills vertically */
+        flex-direction: column;
     }
 
     .technical-skills,
     .additional-skills {
-        flex-basis: 100%; /* Full width for skills sections */
+        flex-basis: 100%;
     }
 
     .project-card {
-        flex-direction: column; /* Stack project card sections */
-        height: auto; /* Remove fixed height */
+        flex-direction: column;
+        height: auto;
     }
 
     .project-thumbnail {
-        flex: 0 0 100%; /* Full width for thumbnail */
-        margin-bottom: 10px; /* Space below thumbnail */
+        flex: 0 0 100%;
+        margin-bottom: 10px;
     }
 
     .project-thumbnail img {
-        width: 100%; /* Responsive image */
+        width: 100%;
         height: auto;
     }
 
     .project-details {
-        padding: 10px; /* Adjust padding for details */
+        padding: 10px;
     }
 
     .project-links a {
-        display: block; /* Block level links for better touch targets */
-        margin: 5px 0; /* Vertical space between links */
-        padding: 10px 0; /* Increase touch target size */
+        display: block;
+        margin: 5px 0;
+        padding: 10px 0;
     }
 
     .contact-info {
-        width: 100%; /* Full width for contact section */
+        width: 100%;
     }
 
     .contact-box {
-        flex-direction: column; /* Stack contact sections vertically */
+        flex-direction: column;
     }
 
     .contact-left,
     .contact-right {
-        flex-basis: 100%; /* Full width for contact sections */
-        padding: 20px; /* Consistent padding */
+        flex-basis: 100%;
+        padding: 20px;
     }
 
     .input-row {
-        flex-direction: column; /* Stack input fields */
+        flex-direction: column;
     }
 
     .input-group {
-        flex-basis: 100%; /* Full width for input groups */
-        margin-bottom: 10px; /* Space below each input */
+        flex-basis: 100%;
+        margin-bottom: 10px;
     }
 
     input,
     textarea {
-        width: 100%; /* Full width for inputs */
-        margin-bottom: 10px; /* Space below inputs */
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     form button {
-        width: 100%; /* Full width for button */
-        padding: 10px; /* Increase touch target size */
-        margin-top: 20px; /* Space above button */
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
     }
 }
